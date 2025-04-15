@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #ba5ca3;
+}
+
+h1{
+    font-family: "kit-rounded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #f9f5ff;
+    font-size: 48pt;
+
+}
+
+.top{
+    height: 30vh;
+}
+
+.container{
+    align-items: center;
+    justify-items: center;
+
+}
