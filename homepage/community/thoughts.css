@@ -208,3 +208,26 @@ h5{
     padding: 13px 5px;
     border-radius: 0.375rem;
   }
+
+.stickycorner{
+    position: sticky;
+    bottom: 20px;
+    left: 420px;
+    padding-left: 20px;
+}
+
+
+#myBtn{
+    font-family: "kit-rounded", sans-serif;
+    font-size: 14pt;
+    font-weight: 700;
+    color: #ddc0dc;
+    padding-top: 10px;
+    border-radius: 4px;
+    background-color: #ec008c;
+    
+}
+
+#myBtn:hover {
+    background-color: #a8228e; /* Add a dark-grey background on hover */
+  }

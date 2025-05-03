@@ -10,6 +10,9 @@ body{
     margin: 0 auto;
     background-color: #ddc0dc;
     padding:10px;
+    background-image: url(homebackground.svg);
+    background-size: 200%;
+    background-repeat: repeat;
 }
 
 h1{

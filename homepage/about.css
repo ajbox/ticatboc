@@ -52,6 +52,10 @@ p{
     padding-left: 30px;
 }
 
+.title{
+    text-align: center;
+}
+
 .container{
     align-items: center;
     justify-items: center;

@@ -48,3 +48,37 @@ a{
     text-align: center;
 
 }
+
+.phone{
+    display: none;
+}
+
+/* max-width = desktop first design */
+/* min-width = desktop first design */
+
+/*tablet styles*/
+@media screen and (max-width:900px){
+    h1{
+        font-size: 28pt;
+    }
+
+    h2{
+        font-size: 21pt;
+    }
+    .homebutton{
+        display: none;
+    }
+    .phone{
+        display: block;
+    }
+}
+
+/*phone styles*/
+@media screen and (max-width: 600px){
+    .homebutton{
+        display: none;
+    }
+    .phone{
+        display: block;
+    }
+}
