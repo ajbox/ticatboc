@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #ddc0dc;
+    padding:10px;
+}
+
+h1{
+    font-family: "kit-rounded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #a8228e;
+    font-size: 32pt;
+    margin-bottom: 0;
+
+}
+
+h2{
+    font-family: "kit-rounded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #a8228e;
+    font-size: 24pt;
+}
+
+h2.pink{
+    font-family: "kit-rounded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ec008c;
+    font-size: 24pt;
+}
+
+h3{
+    font-family: "kit-rounded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #a8228e;
+    font-size: 18pt;
+    margin: 0;
+}
+
+
+.top{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.container{
+    align-items: center;
+    justify-items: center;
+}
+
+.row1{
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.images .hover{
+    display: none;
+}
+
+.images:hover .trigger{
+    display: none;
+}
+
+.images:hover .hover{
+    display: block;
+}
+
+.row2{
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    gap: 150px;
+    text-align: center;
+}
+
+.row3{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.bottom{
+    height: 20vh;
+}
+

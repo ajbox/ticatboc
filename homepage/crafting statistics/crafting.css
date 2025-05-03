@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #ddc0dc;
+}
+
+h1{
+    font-family: "kit-rounded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #a8228e;
+    font-size: 48pt;
+
+}
+
+h2{
+    font-family: "kit-rounded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #a8228e;
+    font-size: 24pt;
+}
+
+h2.pink{
+    font-family: "kit-rounded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ec008c;
+    font-size: 24pt;
+}
+
+h3{
+    font-family: "kit-rounded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #a8228e;
+    font-size: 18pt;
+    margin: 0;
+}
+
+h4{
+    font-family: "kit-rounded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #a8228e;
+    font-size: 24pt;
+    margin: 0;
+}
+
+.top{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.container{
+    align-items: center;
+    justify-items: center;
+
+}
+
+.title{
+    text-align: center;
+}
+
+.row1{
+    align-items: center;
+    justify-items: center;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right:100px;
+    text-align: center;
+}
+
+.hover{
+    display: none;
+}
+
+.row1:hover .trigger{
+    display: none;
+}
+
+.row1:hover .hover{
+    display: block;
+}
+
+.row2{
+    margin-top: 60px;
+    text-align: center;
+}
