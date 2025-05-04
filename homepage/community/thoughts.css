@@ -231,3 +231,96 @@ h5{
 #myBtn:hover {
     background-color: #a8228e; /* Add a dark-grey background on hover */
   }
+
+  /* max-width = desktop first design */
+/* min-width = desktop first design */
+
+/*tablet styles*/
+@media screen and (max-width:900px){
+  h1{
+      font-size: 26pt;
+  }
+
+  h2{
+      font-size: 18pt;
+  }
+
+  h3{
+      font-size: 16pt;
+  }
+
+  p, h4, h5{
+    font-size: 12pt;
+  }
+
+  .top{
+      height: 22vh;
+  }
+
+  .container{
+      text-align: center;
+      margin: 10px;
+  }
+
+  a{
+      text-decoration: underline #ffbbe4;
+  }
+
+
+  .trigger{
+      display: none;
+  }
+
+  .hover{
+      display: block;
+  }
+
+  .row1{
+      margin-top: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+  }
+
+  
+  
+}
+
+/*phone styles*/
+@media screen and (max-width: 750px){
+  .top{
+      height: 20vh;
+      padding-top: 10px;
+  }
+
+}
+
+@media screen and (max-width: 693px){
+  .row1{
+      margin-top: 40px;
+  }
+
+  .tabs{
+    max-width: 600px;
+
+  }
+
+  .tabs label{
+    padding: 10px;
+  }
+ 
+ 
+}
+
+@media screen and (max-width: 603px){
+
+  .tabs{
+    max-width: 540px;
+
+  }
+
+  .tabs label{
+    padding: 0;
+  }
+ 
+ 
+}

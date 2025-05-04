@@ -80,3 +80,86 @@ p{
     margin-right: 230px;
     margin-top: 80px;
 }
+
+/* max-width = desktop first design */
+/* min-width = desktop first design */
+
+/*tablet styles*/
+@media screen and (max-width:900px){
+    h1{
+        font-size: 26pt;
+    }
+
+    h2{
+        font-size: 21pt;
+    }
+
+    h3{
+        font-size: 18pt;
+    }
+
+    h4{
+        font-size: 21pt;
+    }
+
+    .top{
+        height: 22vh;
+    }
+
+    a{
+        text-decoration: underline #ffbbe4;
+    }
+
+    .paragraphs{
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+
+    .author{
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+}
+
+  /*phone styles*/
+@media screen and (max-width: 750px){
+    h1{
+        font-size: 26pt;
+    }
+
+    h2{
+        font-size: 21pt;
+    }
+    .top{
+        height: 20vh;
+        padding-top: 10px;
+    } 
+
+    .paragraphs{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .author{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+   
+}
+
+@media screen and (max-width: 600px){
+    .row1{
+        margin-top: 40px;
+    }
+   
+    .paragraphs{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+   
+    .author{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+   
+}

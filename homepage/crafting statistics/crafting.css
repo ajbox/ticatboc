@@ -66,6 +66,7 @@ h4{
     align-items: center;
     justify-items: center;
 
+
 }
 
 .title{
@@ -96,4 +97,88 @@ h4{
 .row2{
     margin-top: 60px;
     text-align: center;
+}
+
+/* max-width = desktop first design */
+/* min-width = desktop first design */
+
+/*tablet styles*/
+@media screen and (max-width:900px){
+    h1{
+        font-size: 26pt;
+    }
+
+    h2{
+        font-size: 21pt;
+    }
+
+    h3{
+        font-size: 18pt;
+    }
+
+    h4{
+        font-size: 21pt;
+    }
+
+    .top{
+        height: 22vh;
+    }
+
+    .container{
+        text-align: center;
+        margin: 10px;
+    }
+
+    a{
+        text-decoration: underline #ffbbe4;
+    }
+
+
+    .trigger{
+        display: none;
+    }
+
+    .hover{
+        display: block;
+    }
+
+    .row1{
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    
+    
+}
+
+  /*phone styles*/
+@media screen and (max-width: 750px){
+    h1{
+        font-size: 26pt;
+    }
+
+    h2{
+        font-size: 21pt;
+    }
+    .top{
+        height: 20vh;
+        padding-top: 10px;
+    } 
+
+    .row2{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+   
+   
+}
+
+@media screen and (max-width: 600px){
+    .row1{
+        margin-top: 40px;
+    }
+   
+   
 }

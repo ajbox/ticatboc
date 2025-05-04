@@ -53,6 +53,7 @@ h4{
     color: #a8228e;
     font-size: 24pt;
     margin: 0;
+    text-align: center;
 }
 
 h5{
@@ -84,26 +85,82 @@ h5{
 }
 
 .row1{
-    align-items: center;
-    justify-items: center;
     margin-top: 50px;
     text-align: left;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 .row2{
-    align-items: center;
-    justify-items: center;
     margin-top: 50px;
     text-align: left;
 }
 
 .row3{
-    align-items: center;
-    justify-items: center;
     margin-top: 50px;
     text-align: left;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 .bottom{
     height: 10vh;
+    
+}
+
+/* max-width = desktop first design */
+/* min-width = desktop first design */
+
+@media screen and (max-width: 1200px){
+    .row1{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .row3{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    
+}
+
+/*tablet styles*/
+@media screen and (max-width:900px){
+    h1{
+        font-size: 28pt;
+    }
+
+    h2{
+        font-size: 21pt;
+    }
+
+    .row1, .row3{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+   
+   
+    
+}
+
+/*phone styles*/
+@media screen and (max-width: 750px){
+    .row1, .row3{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    h3{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 588px){
+    .row1, .row3{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
 }

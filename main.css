@@ -65,20 +65,31 @@ a{
     h2{
         font-size: 21pt;
     }
-    .homebutton{
+   
+    .phone{
         display: none;
     }
-    .phone{
-        display: block;
+
+    body{
+        background-position: top 300px;
+    
     }
+
+    .top{
+        height: 30vh;
+    }
+
+
+    a{
+        text-decoration: underline #f9f5ff;
+    }
+    
 }
 
 /*phone styles*/
-@media screen and (max-width: 600px){
-    .homebutton{
-        display: none;
+@media screen and (max-width: 750px){
+    body{
+        background-image: none;
     }
-    .phone{
-        display: block;
-    }
+    
 }
