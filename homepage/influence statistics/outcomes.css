@@ -167,20 +167,8 @@ h4{
     }
 
     a{
-        text-decoration: underline #ffbbe4;
+        text-decoration: underline #ec008c;
     }
-
-
-    .trigger{
-        display: none;
-    }
-
-    .hover{
-        display: block;
-    }
-
-
-    
     
 }
 
@@ -210,3 +198,36 @@ h4{
    
    
 }
+
+@media screen and (max-width: 450px){
+    h1{
+     font-size: 20pt;
+    }
+
+       h2{
+           font-size: 18pt;
+       }
+   
+       h3{
+           font-size: 16pt;
+       }
+   
+       h4{
+           font-size: 18pt;
+       }
+    
+    .me{
+        max-width: 300px;
+    }
+
+    .postcards{
+        max-width: 400px;
+    }
+
+    #myBtn{
+        font-family: "kit-rounded", sans-serif;
+        font-size: 10pt;
+        padding-top: 5px;  
+    }
+    }
+ 

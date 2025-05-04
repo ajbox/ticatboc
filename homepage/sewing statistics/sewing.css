@@ -239,3 +239,35 @@ h4{
 @media screen and (max-width: 600px){
    
 }
+
+@media screen and (max-width: 450px){
+    h1{
+     font-size: 21pt;
+    }
+
+    h2{
+        font-size: 18pt;
+    }
+
+    h3{
+        font-size: 16pt;
+    }
+
+    h4{
+        font-size: 18pt;
+    }
+
+    .row1, .row6{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #myBtn{
+        font-family: "kit-rounded", sans-serif;
+        font-size: 10pt;
+        padding-top: 5px;
+        
+        
+    }
+
+ }

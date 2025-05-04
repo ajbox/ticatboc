@@ -50,6 +50,9 @@ h3{
     margin: 0;
 }
 
+a{
+    text-decoration: underline #ec008c;
+}
 
 .top{
     height: 20vh;
@@ -161,6 +164,8 @@ h3{
    
 }
 
-@media screen and (max-width: 600px){
-   
+@media screen and (max-width: 450px){
+   h1{
+    font-size: 20pt;
+   }
 }

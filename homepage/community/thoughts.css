@@ -45,6 +45,7 @@ h3{
     font-size: 18pt;
     margin: 0;
     padding-bottom: 20px;
+    text-align: left;
 }
 
 p{
@@ -55,6 +56,7 @@ p{
     font-size: 14pt;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: left;
 }
 
 h4{
@@ -64,7 +66,8 @@ h4{
     color: #6e00a5;
     font-size: 14pt;
     padding-left: 20px;
-    padding-right: 20px
+    padding-right: 20px;
+    text-align: left;
 }
 
 h5{
@@ -76,6 +79,7 @@ h5{
     padding-left: 20px;
     padding-right: 20px; 
     margin: 0;
+    text-align: left;
 }
 
 .top{
@@ -124,7 +128,7 @@ h5{
 }
 
 .tabs .tab h2{
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .tabs input[type='radio']:checked + label + .tab{
@@ -232,7 +236,11 @@ h5{
     background-color: #a8228e; /* Add a dark-grey background on hover */
   }
 
-  /* max-width = desktop first design */
+a{
+    text-decoration: underline #ec008c;
+}
+
+/* max-width = desktop first design */
 /* min-width = desktop first design */
 
 /*tablet styles*/
@@ -262,10 +270,6 @@ h5{
       margin: 10px;
   }
 
-  a{
-      text-decoration: underline #ffbbe4;
-  }
-
 
   .trigger{
       display: none;
@@ -290,6 +294,12 @@ h5{
   .top{
       height: 20vh;
       padding-top: 10px;
+  }
+
+  #myBtn{
+    font-family: "kit-rounded", sans-serif;
+    font-size: 10pt;
+    padding-top: 5px;  
   }
 
 }
@@ -321,6 +331,48 @@ h5{
   .tabs label{
     padding: 0;
   }
+ 
+ 
+}
+
+@media screen and (max-width: 450px){
+h1{
+    font-size: 21pt;
+}
+
+h2{
+    font-size: 16pt;
+}
+
+h3{
+    font-size: 14pt;
+}
+
+p{
+  font-size: 10pt;
+}
+
+p, h4, h5{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+
+.tabs .tab h2{
+  font-size: 2rem;
+}
+
+#myBtn{
+  font-family: "kit-rounded", sans-serif;
+  font-size: 10pt;
+  padding-top: 5px;  
+}
+
+.tabfont{
+  font-size: 10pt;
+}
+  
  
  
 }
